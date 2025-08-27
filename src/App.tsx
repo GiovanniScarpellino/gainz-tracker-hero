@@ -23,8 +23,8 @@ const App = () => {
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/workout/:id" element={<WorkoutPage />} />
+          <Route path="/gainz-tracker-hero" element={<Index />} />
+          <Route path="/gainz-tracker-hero/workout/:id" element={<WorkoutPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
